@@ -24,9 +24,10 @@ task_5_file=""
 ```
 
 ### Just copy & Paste on your SSH
+- do this in SSH, **not** Cloud Shell
 ####
 
-```
+```bash
 export PROJECT_ID=$(gcloud config get-value project)
 
 source venv/bin/activate
